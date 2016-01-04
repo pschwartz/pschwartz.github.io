@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns# fb: https://www.facebook.com/2008/fbml">
 <head>
-    <title>Stalking the Programing world</title>
+    <title>Search - Stalking the Programing world
+</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -9,7 +10,7 @@
 
 
 
-<link rel="canonical" href="http://www.progmad.com">
+
         <meta name="author" content="Philip Marc Schwartz" />
 
     <!-- Open Graph tags -->
@@ -74,14 +75,7 @@ Stalking the Programing world            </a>
 <div class="container">
   <div class="row">
         <div class="col-sm-9">
-            <article>
-                <h2><a href="http://www.progmad.com/2016/01/test/">Test</a></h2>
-                <div class="summary">
-                    <a class="btn btn-default btn-xs" href="http://www.progmad.com/2016/01/test/">more ...</a>
-                </div>
-            </article>
-            <hr/>
-
+<div id="tipue_search_content"></div>
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
@@ -144,5 +138,18 @@ Stalking the Programing world            </a>
 <script src="http://www.progmad.com/theme/js/respond.min.js"></script>
 
 
+<script type="text/javascript" src="http://www.progmad.com/theme/tipuesearch/tipuesearch.packed.min.js?1fecf4bd"></script>
+    <script>
+    $(document).ready(function() {
+      $('#tipue_search_input').tipuesearch({
+        'show': 10,
+        'mode': 'json',
+        'showURL': false,
+        'descriptiveWords': 75,
+        'highlightEveryTerm': true,
+        'contentLocation': '/tipue_search.json'
+    });
+    });
+    </script>
 </body>
 </html>

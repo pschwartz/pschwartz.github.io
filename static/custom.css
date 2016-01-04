@@ -1,0 +1,47 @@
+#banner {
+    padding: 85px 0;
+}
+
+#tipue_search_input {
+    padding: 9px 12px 9px 40px;
+    background-position: 15px 13px;
+}
+
+body {
+    font-family: "Helvetica Neue","Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.628571;
+}
+
+.me-picture {
+  border:#F6F6F6 10px solid;
+  width:240px;
+  height:240px;
+  -moz-border-radius:50%;
+  border-radius:50%;
+}
+
+table {
+  padding: 0; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
