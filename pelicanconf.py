@@ -45,7 +45,7 @@ DIRECT_TEMPLATES = [
 TIPUE_SEARCH_SAVE_AS = 'tipue_search.json'
 
 # Theme related values
-THEME = 'pelican-bootstrap3'
+THEME = 'stalking'
 BOOTSTRAP_THEME = 'flatly'
 PYGMENTS_STYLE = "native"
 # BOOTSTRAP_FLUID = True
