@@ -2,8 +2,6 @@ About
 #####
 
 :title: About
-:slug: about
-:status: published
 
 .. _T-Mobile: http://www.t-mobile.com
 .. _OpenStack: http://www.openstack.org
