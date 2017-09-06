@@ -35,6 +35,7 @@ nosetests.xml
 .pydevproject
 
 .venv
+*.pyc
 
 # Generated documentation
 docs/_build/

@@ -2,11 +2,13 @@ About
 #####
 
 :title: About
+:slug: about
+:status: published
 
-.. _IBM: http://www.ibm.com
+.. _T-Mobile: http://www.t-mobile.com
 .. _OpenStack: http://www.openstack.org
 .. _Ansible: http://www.ansible.com
-__ IBM_
+__ T-Mobile_
 
 ------------
 
@@ -18,11 +20,26 @@ __ IBM_
 My name is Philip Marc Schwartz, I am a Hacker. No, not the media misconception of a cyber criminal breaking into computers to steal valuable information, but a classic hacker. I am an artist of code, I am a programmer.  I am proficent in a multitude of programming languages including C, C++, Java, Perl, Python; along with many others both common and uncommon. I am an expert of systems automation with both Ansible_ and Puppet. I am also an avid photographer and a devoted husband/father.
 
 
-I currently work as a Senior Software Engineer for `IBM Cloud US`__ working on OpenStack_ development.
+I currently work as a Principal Developer for `T-Mobile US`__ working on the Digital Platform Development with a focus on the Enterprise Delivery Platform.
 
-My focus is primarily on OpenStack Infrastructure development, but I am also involved with Nova and Neutron development. 
+My focus is on CI/CD automation and infrastructure. This includes core development of the Jenkins based pipelines for all development teams with-in T-Mobile_.
+
+I also have a long standing experience with Cloud computing including OpenStack development and management at scale.
 
 I am also an active contributor to the Ansible_ project.
+
+------------
+
+.. csv-table:: Certifications
+   :header: "Title", "Date"
+   :class: .table-hover
+
+   "Certified Jenkins Engineer", "August 2017"
+   "HPCC ECL Developer", "January 2012"
+   "EDB Postgres Developer", "July 2009"
+   "EDB Postgres Administrator", "July 2009"
+   "EDB Postgres Performance Tunning", "July 2009"
+   "MySQL Administration and Tunning", "March 2008"
 
 ------------
 
@@ -30,7 +47,8 @@ I am also an active contributor to the Ansible_ project.
    :header: "Title", "Company", "Date"
    :class: .table-hover
 
-   "Senior Software Engineer, OpenStack Development", "IBM Cloud US", "October 2015 - Present"
+   "Principal Developer, EDP Automation", "T-Mobile US", "May 2017 - Present"
+   "Senior Software Engineer, OpenStack Development", "IBM Cloud US", "October 2015 - April 2017"
    "Software Developer 3, OpenStack Development", "Rackspace", "July 2014 - October 2015"
    "DevOps Engineer 3, OpenStack Deployments", "Rackspace", "July 2013 - July 2014"
    "Senior Software Engineer, HPCC Platform", "LexisNexis RS", "September 2008 - July 2013"

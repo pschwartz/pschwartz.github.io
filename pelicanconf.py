@@ -9,12 +9,19 @@ sys.path.append(os.curdir)
 AUTHOR = u'Philip Marc Schwartz'
 AUTHOR_EMAIL = u'philip@progmad.com'
 TWITTER_USERNAME = 'xhypno402'
-SITENAME = u'Stalking the Programing world'
+SITENAME = u'Stalking the Programing World'
 SITEURL = u'http://localhost:8000'
 
 PATH = 'content'
 
-MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid']
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.headerid': {},
+        'markdown.extensions.extra': {},
+    },
+    'output_format': 'html5',
+}
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = [
@@ -48,9 +55,9 @@ TIPUE_SEARCH_SAVE_AS = 'tipue_search.json'
 THEME = 'stalking'
 BOOTSTRAP_THEME = 'flatly'
 PYGMENTS_STYLE = "native"
-# BOOTSTRAP_FLUID = True
+BOOTSTRAP_FLUID = True
 DISPLAY_BREADCRUMBS = True
-# DISPLAY_CATEGORY_IN_BREADCRUMBS = True
+DISPLAY_CATEGORY_IN_BREADCRUMBS = True
 BOOTSTRAP_NAVBAR_INVERSE = True
 RELATED_POSTS_MAX = 10
 DISPLAY_ARTICLE_INFO_ON_INDEX = False
@@ -61,6 +68,7 @@ DISPLAY_TAGS_INLINE = True
 TAG_CLOUD_MAX_ITEMS = 10
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_SIDEBAR = True
 DISPLAY_SERIES_ON_SIDEBAR = True
 SHOW_SERIES = True
 DOCUTIL_CSS = True
